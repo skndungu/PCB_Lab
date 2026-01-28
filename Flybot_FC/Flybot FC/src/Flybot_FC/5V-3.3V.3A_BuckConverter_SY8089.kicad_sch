@@ -865,12 +865,6 @@
 		(uuid "4ee20cf1-5c5d-4450-9007-43783b41133a")
 	)
 	(junction
-		(at 149.86 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7168ab56-0aaa-4752-9d87-4f7234983add")
-	)
-	(junction
 		(at 166.37 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -958,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 74.93) (xy 152.4 74.93)
+			(xy 148.59 74.93) (xy 152.4 74.93)
 		)
 		(stroke
 			(width 0)
@@ -988,16 +982,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 149.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4f701b-7fcb-4c9b-989b-f80edc8f5d15")
-	)
-	(wire
-		(pts
 			(xy 177.8 74.93) (xy 189.23 74.93)
 		)
 		(stroke
@@ -1005,16 +989,6 @@
 			(type default)
 		)
 		(uuid "1f5911a4-7ab5-476a-8717-4d3b57767e4d")
-	)
-	(wire
-		(pts
-			(xy 149.86 69.85) (xy 149.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3264d3b1-11f2-4db0-b8dc-1109724a45ec")
 	)
 	(wire
 		(pts
@@ -1498,6 +1472,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c4d6dd3-3465-4e4b-a41b-6fe19329db60")
 		)
@@ -1590,6 +1572,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c82a30f6-2c4c-498b-9fdf-36c1d487ce15")
 		)
@@ -1675,6 +1665,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 205.74 82.55 0)
 			(effects
 				(font
@@ -1844,6 +1842,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 189.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "673134f6-e3dd-41bf-85d5-bae81c3dbaa2")
 		)
@@ -1936,6 +1942,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51ca6e54-a5ee-443c-9db6-27d0448bcc5c")
 		)
@@ -1949,94 +1963,6 @@
 			(project "SafiVolt_Main"
 				(path "/376dca49-3f61-489b-8a1c-02451cc2f7ba/e434f21c-e709-4bca-915d-3aeda9c908e5"
 					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69d4bcc7-3f97-4c37-ac1a-90282b902c72")
-		(property "Reference" "TP16"
-			(at 147.574 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Sw"
-			(at 148.336 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 154.94 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57804bc0-909d-42c3-9b5f-e5fdf55c13d2")
-		)
-		(instances
-			(project "Flybot_FC"
-				(path "/20662b15-1234-4fb8-8b52-cea64be60f62/1e2f80bf-4e41-4389-9b25-59776cd7a69e"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-			(project "SafiVolt_Main"
-				(path "/376dca49-3f61-489b-8a1c-02451cc2f7ba/e434f21c-e709-4bca-915d-3aeda9c908e5"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -2321,6 +2247,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 87.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f7bd18f1-8682-4897-873d-659247341776")
 		)
@@ -2359,7 +2293,7 @@
 				)
 			)
 		)
-		(property "Value" "SY8089AAAC"
+		(property "Value" "RT5752AHGJ5"
 			(at 138.43 70.866 0)
 			(effects
 				(font
@@ -2377,7 +2311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409291603_Silergy-Corp-SY8089AAAC_C78988.pdf"
+		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT5752A=RT5752B/DS5752AB-02.pdf"
 			(at 137.668 68.326 0)
 			(effects
 				(font
@@ -2404,6 +2338,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -2469,7 +2411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -2494,6 +2436,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2572,6 +2522,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 177.8 82.55 0)
 			(effects
 				(font
@@ -2670,6 +2628,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5290eff0-1b45-4e67-a0c3-de5e09d738e5")
 		)
@@ -2709,7 +2675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "450k"
+		(property "Value" "453k"
 			(at 167.894 85.09 0)
 			(effects
 				(font
@@ -2754,6 +2720,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 166.37 83.82 0)
 			(effects
 				(font
@@ -2933,6 +2907,14 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "efeee1ca-aadf-443c-b564-1cb959e0c20c")
 		)
@@ -3017,6 +2999,14 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 198.12 82.55 0)
 			(effects
 				(font

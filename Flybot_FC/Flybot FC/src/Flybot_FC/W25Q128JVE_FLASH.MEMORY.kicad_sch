@@ -1290,6 +1290,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c907adf9-3723-4ed9-8c6d-0a9cf5f02192")
 		)
@@ -1360,6 +1368,14 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 110.49 113.03 0)
 			(effects
 				(font
@@ -1500,6 +1516,14 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 110.49 110.49 0)
 			(effects
 				(font
@@ -1648,6 +1672,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80e16385-88a9-480b-adce-c3da08c5d15c")
 		)
@@ -1726,6 +1758,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ede5f8a-2755-4111-b78b-18a1c37a562c")
 		)
@@ -1760,7 +1800,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVE"
+		(property "Value" "AT25SF128A-MHB-T"
 			(at 140.97 109.2199 0)
 			(effects
 				(font
@@ -1769,7 +1809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -1778,7 +1818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25sf128aat25qf128a-datasheet?r=1608781"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -1797,6 +1837,14 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 129.54 107.95 0)
 			(effects
 				(font

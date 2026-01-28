@@ -1479,7 +1479,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
+			(property "Reference" "U9"
 				(at 0 15.24 0)
 				(effects
 					(font
@@ -1495,7 +1495,7 @@
 					)
 				)
 			)
-			(property "Footprint" "greencharge-footprints:AP64501QSP-13"
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8"
 				(at 0 12.446 0)
 				(effects
 					(font
@@ -1546,17 +1546,6 @@
 					(end 6.35 -8.89)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 11.43 -17.78)
-					(end 11.43 -17.78)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3093,6 +3082,14 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e832e52e-383f-47cc-a5e6-d8ff6f17fadd")
 		)
@@ -3139,7 +3136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -3173,6 +3170,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3249,6 +3254,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3384,7 +3397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 82.55 0)
 			(effects
 				(font
@@ -3418,6 +3431,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 242.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3619,7 +3640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -3653,6 +3674,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3759,6 +3788,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93378ca5-7602-4445-bb09-79e0188273ff")
 		)
@@ -3802,7 +3839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 119.38 69.85 0)
 			(effects
 				(font
@@ -3827,6 +3864,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4034,6 +4079,14 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 173.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87a8fef4-4f91-4a74-9c0f-9a9465f5a8ef")
 		)
@@ -4060,7 +4113,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4795df25-0cf9-40f8-bd9f-ae02d4d6c9c8")
 		(property "Reference" "D9"
 			(at 82.55 81.2799 90)
@@ -4071,16 +4123,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52C12"
-			(at 82.55 83.8199 90)
+		(property "Value" "BZX884B30L-G3-08"
+			(at 80.772 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 80.01 82.55 0)
 			(effects
 				(font
@@ -4089,7 +4142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010331_JUXING-BZT52C12_C19078579.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/86186/bzx884l-series.pdf"
 			(at 80.01 82.55 0)
 			(effects
 				(font
@@ -4116,6 +4169,14 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 80.01 82.55 0)
 			(effects
 				(font
@@ -4222,7 +4283,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54F"
+		(property "Value" "SDM4A40EP3-7B"
 			(at 253.0475 72.39 0)
 			(effects
 				(font
@@ -4230,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 252.73 76.2 0)
 			(effects
 				(font
@@ -4239,7 +4300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SDM4A40EP3.pdf"
 			(at 252.73 76.2 0)
 			(effects
 				(font
@@ -4258,6 +4319,14 @@
 			)
 		)
 		(property "XW05202-300R-00" ""
+			(at 252.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 252.73 76.2 0)
 			(effects
 				(font
@@ -4416,6 +4485,14 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac07ceea-eba2-4f97-ba15-b586bedcc443")
 		)
@@ -4527,7 +4604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.88 80.01 0)
 			(effects
 				(font
@@ -4561,6 +4638,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4624,7 +4709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 265.43 72.39 0)
 			(effects
 				(font
@@ -4649,6 +4734,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 260.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4691,7 +4784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -4725,6 +4818,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4815,6 +4916,14 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 242.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f56f9751-3bf0-4ccd-937c-0a89c7a668bb")
 		)
@@ -4859,7 +4968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 175.26 76.2 0)
 			(effects
 				(font
@@ -4893,6 +5002,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5058,6 +5175,14 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2708d9e1-ca78-4533-8816-2d0d87482dad")
 		)
@@ -5180,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Value" "SY8303AIC"
+		(property "Value" "SY21153AAIC"
 			(at 143.51 72.39 0)
 			(effects
 				(font
@@ -5188,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8"
 			(at 143.51 72.644 0)
 			(effects
 				(font
@@ -5222,6 +5347,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5303,7 +5436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -5337,6 +5470,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5472,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 196.85 88.9 0)
 			(effects
 				(font
@@ -5506,6 +5647,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5597,6 +5746,14 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 50.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
 			(at 50.8 76.2 0)
 			(effects
 				(font
@@ -5702,7 +5859,7 @@
 		(fields_autoplaced yes)
 		(uuid "f745d250-3e8e-4661-91e4-4125bcc73c5f")
 		(property "Reference" "D10"
-			(at 39.37 85.0899 90)
+			(at 39.37 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,16 +5867,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B22AL2"
+		(property "Value" "D15V0S1U2LP1610-7"
 			(at 39.37 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 31.75 86.36 0)
 			(effects
 				(font
@@ -5728,7 +5886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D12V0S1U2LP1610_D50V0S1U2LP1610.pdf"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -5744,6 +5902,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 36.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5823,6 +5989,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
