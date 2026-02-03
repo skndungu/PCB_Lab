@@ -1,0 +1,1004 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9e5b0d5a-1643-49d9-ad40-68b3bbdf5079")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "3.3V DC Linear\nReagulator"
+		(exclude_from_sim no)
+		(at 207.772 67.818 0)
+		(effects
+			(font
+				(face "Bodoni MT")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "163a58a8-f29f-476d-a8e7-3f84ea00d10d")
+	)
+	(text "AC-DC Converter"
+		(exclude_from_sim no)
+		(at 68.834 68.072 0)
+		(effects
+			(font
+				(face "Bodoni MT")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "57bfef8d-dfc6-4f59-aeac-427fbd1fab9a")
+	)
+	(text "Control Unit"
+		(exclude_from_sim no)
+		(at 137.668 116.586 0)
+		(effects
+			(font
+				(face "Bodoni MT")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9a4aea86-b0fb-495a-aee9-41b11d36fd63")
+	)
+	(text "LED CONTROLLER Rev.A"
+		(exclude_from_sim no)
+		(at 139.446 37.592 0)
+		(effects
+			(font
+				(face "Bodoni MT")
+				(size 3.81 3.81)
+				(bold yes)
+			)
+		)
+		(uuid "9faaf34e-2f09-4a0d-ba06-6b0da7a4cbbf")
+	)
+	(text "5V DC Step Down\nConverter"
+		(exclude_from_sim no)
+		(at 140.208 67.056 0)
+		(effects
+			(font
+				(face "Bodoni MT")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e0eecb63-5daf-4b96-b6e9-ba7ecedf476e")
+	)
+	(junction
+		(at 176.53 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "010a674d-b34f-4c7d-9507-48e1227643ad")
+	)
+	(junction
+		(at 105.41 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cea4e025-2963-4027-8c16-3076a5ee2623")
+	)
+	(wire
+		(pts
+			(xy 97.79 67.31) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08985b58-4eaa-4e5d-be63-6360cb825cfc")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d041a2e-1272-47df-b970-b6cfc8a87e30")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328e0fd1-e02f-4595-9653-9cf552d39a9e")
+	)
+	(wire
+		(pts
+			(xy 240.03 68.58) (xy 232.41 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471565fc-7c63-4c47-b1a2-ec097bc22d70")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5932873c-c129-49ed-8610-7e29e026c766")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70965e6c-9eaa-481a-9f75-4052fcca575b")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 240.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b40610-e3de-450c-bf3b-09582a7b4162")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a59de4f-bb2d-4e2a-8611-0c31ae6da35a")
+	)
+	(wire
+		(pts
+			(xy 166.37 68.58) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6898944-fee6-487b-b558-67c1f5715962")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.42) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e416bbd4-1e7e-488d-891f-34660dbae848")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 105.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa434110-d262-44d8-98f7-665a70b03904")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 240.03 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f0252f-f9ad-4cfb-801d-45b11af766f8")
+		(property "Reference" "#PWR041"
+			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 240.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b9c6a7a-7bfd-48f8-a0ae-a90230fc538c")
+		)
+		(instances
+			(project ""
+				(path "/9e5b0d5a-1643-49d9-ad40-68b3bbdf5079"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a4901e-da67-4e0e-8ff2-77d5cbe70605")
+		(property "Reference" "#PWR042"
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf89a8b0-dea8-497c-bee5-8da063714f31")
+		)
+		(instances
+			(project ""
+				(path "/9e5b0d5a-1643-49d9-ad40-68b3bbdf5079"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 105.41 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcebca69-d79d-4da8-8616-dae96c110697")
+		(property "Reference" "#PWR043"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed800d9-e5c2-4c75-b9ae-d9ae55e044c4")
+		)
+		(instances
+			(project ""
+				(path "/9e5b0d5a-1643-49d9-ad40-68b3bbdf5079"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 101.6)
+		(size 46.99 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "02dfbfe0-0c58-46d6-8f5d-8284bf50fab4")
+		(property "Sheetname" "ESP32-C6"
+			(at 114.3 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-C6.kicad_sch"
+			(at 114.3 137.2366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC.Input" input
+			(at 114.3 118.11 180)
+			(uuid "fcef8538-f909-412f-bc73-9e417a92ce50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32-C6_LED_Controller_REV.A"
+				(path "/9e5b0d5a-1643-49d9-ad40-68b3bbdf5079"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 58.42)
+		(size 48.26 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "7c77fe5a-6216-4d71-b884-6d0a24232344")
+		(property "Sheetname" "230VAC-24VDC_CONVERTER"
+			(at 49.53 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "230VAC-24VDC_CONVERTER.kicad_sch"
+			(at 49.53 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC.Input" output
+			(at 97.79 72.39 0)
+			(uuid "ac923737-ef77-4e8d-8bba-31a29e7dc735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "24V.Output" output
+			(at 97.79 67.31 0)
+			(uuid "92c712cb-d5ce-40bc-ac77-c506e820dff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ESP32-C6_LED_Controller_REV.A"
+				(path "/9e5b0d5a-1643-49d9-ad40-68b3bbdf5079"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 58.42)
+		(size 52.07 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "a74d8943-02ef-4250-a973-3846c937dd23")
+		(property "Sheetname" "24V-5V_BUCK.CONVERTER_ TP6841S6"
+			(at 114.3 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "24V-5V_BUCK.CONVERTER_ TP6841S6.kicad_sch"
+			(at 114.3 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V.Output" output
+			(at 166.37 68.58 0)
+			(uuid "8f299f4b-d5fa-41f0-9805-fc3af9397d51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "24V.Input" input
+			(at 114.3 67.31 180)
+			(uuid "31ff8217-794b-4b22-88f4-d5d391e0597b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32-C6_LED_Controller_REV.A"
+				(path "/9e5b0d5a-1643-49d9-ad40-68b3bbdf5079"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 58.42)
+		(size 46.99 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "e888b181-b60d-4ac9-b3ac-3e27303f1a8c")
+		(property "Sheetname" "5V-3.3V_LDO_AP2112K"
+			(at 185.42 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V-3.3V_LDO_AP2112K.kicad_sch"
+			(at 185.42 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V.Input" input
+			(at 185.42 68.58 180)
+			(uuid "9e7c8361-82d1-4769-9648-3279c1672cec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V.Output" output
+			(at 232.41 68.58 0)
+			(uuid "312039d3-7ea5-4006-8588-f625af9ac274")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ESP32-C6_LED_Controller_REV.A"
+				(path "/9e5b0d5a-1643-49d9-ad40-68b3bbdf5079"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
